@@ -40,7 +40,27 @@ A total of 17 customers made at least 50 purchases within the period under revie
 ### Advanced Insights
 "The customer who spent the most overall is Aditi Gupta from Bangalore, with a total spend of exactly 49,930 INR. They are also the same customer with the highest number of purchases at 87 transactions."
 
+## Recommendations
+- The margin between the top-selling and least-selling products is significantly high, 1.2M INR vs 16.6K INR. This gap should be investigated, considering factors such as pricing, store placement, and city availability.
 
+- Pune leads all cities with approximately 1.3M INR in sales. Steps should be taken to identify and replicate the factors driving Pune's performance in other high-potential cities: Chennai, Bangalore, Jaipur, and Delhi.
 
+- Customer satisfaction is strong with an average rating of 4 out of 5. It is recommended that this standard be maintained, as it is clearly a contributing factor to repeat purchases and overall sales.
+
+## Limitations
+### No cost of goods data
+No table in the dataset stores what it costs Premium Coffee Co to produce or source each product.
+This means profit margin cannot be calculated regardless of how the tables are joined.
+The analysis can speak to revenue and sales volume but cannot determine which products are actually the most profitable.
+
+### No customer demographic data
+The customer table only stores customer ID, name, and city. There is no age, gender, or income data anywhere in the dataset. This means demographic-based segmentation is not possible.
+The analysis can identify who buys the most but cannot answer questions about the profile or characteristics of the typical Premium Coffee Co customer.
+
+### No time of day for transactions
+The sales table records a sale date but no timestamp. It is therefore not possible to determine peak trading hours or analyse whether time of day has any influence on purchasing behaviour.
+
+## Conclusions
+"This analysis set out to provide Premium Coffee Co's leadership with data-driven insights across three key areas: sales performance, product behaviour, and customer distribution. The findings reveal a business in a strong position, with healthy customer satisfaction, a clear top-performing product in the Cold Brew Coffee Pack, and Pune emerging as the dominant city by revenue. With the right strategic actions around product portfolio management and city-level replication of Pune's success, Premium  Coffee Co is well-positioned to scale its operations and deepen customer engagement across all its locations."
 
 
